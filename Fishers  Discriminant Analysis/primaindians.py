@@ -49,4 +49,5 @@ for i in range(len(df)):
 		passed+=1
 print("theta : ", theta)
 print("threshold : ",threshold)
+print("passed : ",passed ,"/",len(df))
 print("accuracy : " ,(passed*100)/len(df))
